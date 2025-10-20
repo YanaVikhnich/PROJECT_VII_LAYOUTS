@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+html {
+    text-align: center;
+
+}
+body {
+    font-family: arial;
+    color: #555;
+    font-size: 16px;
+}
+main {
+    width: 96%;
+    max-width: 1024px;
+    margin: auto;
+    padding: 2%;
+}
+h1 {
+    height: 70px;
+    width: 160px;
+    float: left;
+    display: block;
+    background: url(../img/images_for_2.3.0_PROJECT_VIII_GRID/social.png) no-repeat;
+    background-size: cover;
+    margin-bottom: 20px;
+}
+.words {
+    width: 60%;
+    float: left;
+}
+aside {
+    width: 35%;
+    margin-right: 5%;
+    float: right;
+    font-style: italic;
+    font-size: 16px;
+}
+nav {
+    float: right;
+}
+nav li {
+    display: inline;
+    margin-left: 15px;
+}
+nav a {
+    color: #000;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+nav a:hover {
+    color: red;
+}
+footer {
+    clear: both;
+}
+.bigimage img {
+    width: 100%;
+    margin-bottom: 16px;
+}
