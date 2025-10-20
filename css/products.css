@@ -1,0 +1,16 @@
+.products {
+    display: inline-block;
+    width: 100%;
+}
+.thumb {
+    position: relative;
+    display: inline-block;
+    width: 310px;
+    padding: 6px;
+}
+.thumb img {
+    display: inline-block;
+    width: 100%;
+    min-width: 300px;
+    margin: 0 6px;
+}

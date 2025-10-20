@@ -31,6 +31,9 @@ h1 {
     background-size: cover;
     margin-bottom: 20px;
 }
+.headerProduct {
+    clear:both;
+}
 .words {
     width: 60%;
     float: left;
@@ -45,6 +48,8 @@ aside {
 nav {
     float: right;
 }
+
+
 nav li {
     display: inline;
     margin-left: 15px;
@@ -58,10 +63,100 @@ nav a {
 nav a:hover {
     color: red;
 }
+
+.headerHome {
+    color: red;
+}
+.headerAbout {
+    font-weight: 300;
+    margin: 5px auto;
+}
+
+
+
+.lefttext {
+    line-height: 20px;
+    text-align: left;
+}
+.righttext {
+    font-style: italic;
+    font-size: 1.125em;
+    line-height: 20px;
+    text-align: left;
+}
+.text {
+    font-size: 0.875em;
+    margin: 10px auto;
+}
+.footertext {
+    font-size: 0.875em;
+    color: #888;
+}
+
+
+.aboutus {
+    width: 100%;
+    display: inline-block;;
+
+}
+
+.president {
+    clear: both;
+    display: inline-block;
+    width: 40%;
+    margin-right: 20px;
+    padding: 12px;
+    border: 1px solid #555;
+}
+.aboutimg {
+    background-size: cover;
+    width: 100%;
+}
+.ceo {
+    display: inline-block;
+    width: 40%;
+    padding: 12px;
+    border: 1px solid #555;
+}
+
+
 footer {
     clear: both;
+    padding: 3%;
 }
 .bigimage img {
     width: 100%;
     margin-bottom: 16px;
+}
+@media screen and (max-width:580px) {
+
+    nav,
+    .words,
+    aside,
+    .president,
+    .ceo, .products {
+        clear: both;
+        float: left;
+        margin: 0 0 10px;
+        width: 100%;
+    }
+    .thumb {
+        min-width: 400px;
+    }
+
+    nav li {
+        background: #efefef;
+        display: block;
+        margin-bottom: 3px;
+    }
+
+    nav a {
+        display: block;
+        margin: 1px auto;
+        background: #efefef;
+        width: 100%;
+        height: 50px;
+        text-align: center;
+        padding: 20px;
+    }
 }
