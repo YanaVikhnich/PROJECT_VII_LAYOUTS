@@ -1,0 +1,53 @@
+.modalDialog {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 99999;
+    opacity: 0;
+    transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    -webkit-transition: opacity 400ms ease-in;
+    -ms-transition: opacity 400ms ease-in;
+    pointer-events: none; /*Tells the browser either do something or not with pointers */
+
+
+}
+.modalDialog:target {
+    opacity: 1;
+    pointer-events: auto;
+}
+.modalDialog > section {
+    width: 60%;
+    position: relative;
+    margin: 4% auto; 
+    padding: 30px 20px;
+    border-radius: 10px;
+    background: #fff;
+    
+}
+.modalDialog > section img {
+    width: 100%;
+}
+.close{
+    position: absolute;
+    right: -12px;
+    top: -12px;
+    background: #59bbba;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    width: 40px;
+    line-height: 40px;
+    font-weight: bold;
+    border-radius: 50%;
+    transition: background 200ms ease-in;
+    -moz-transition: background 200ms ease-in;
+    -webkit-transition: background 200ms ease-in;
+    -ms-transition: background 200ms ease-in;
+}
+.close:hover {
+    background: #b21f2a;
+}
